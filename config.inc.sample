@@ -1,0 +1,117 @@
+<?php
+
+/**
+ * Copyright 2021, 2024 5 Mode
+ *
+ * This file is part of Actitude.
+ *
+ * Actitude is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Actitude is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.  
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Actitude. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * config.inc
+ * 
+ * Actitude configuration settings.
+ *
+ * @author Daniele Bonini <my25mb@aol.com>
+ * @copyrights (c) 2021, 2024, 5 Mode     
+ */
+
+define('DEBUG', true);
+ 
+define('APP_NAME', "Actitude");
+
+// password: yourpassword
+// salt: yoursalt
+define('APP_HASH', "");
+
+define('APP_SPLASH', true);
+
+define('APP_PATH', "/var/www/YourWebApp");
+define('APP_DATA_PATH', "/var/www/YourWebApp/data");
+define('APP_SALT', "yoursalt");
+// Default Locale, in two letters format
+define('APP_LOCALE', "EN");
+define('APP_CUSTOM_HEADER', "&nbsp;&nbsp;<a href='http://5mode.com'><img src='/ACT_res/5mode.png' style='width:950px;'></a>");
+define('APP_SUPPORT_BUTTON', "<iframe src='https://github.com/sponsors/par7133/button' height='55' width='182' style='border:0;'></iframe>");
+define('APP_SHOP_LINK', "<a href='http://market.from.craft2.cyou/'>5 Mode Market</a>");
+// App uses: PRIVATE or BUSINESS
+define('APP_USE', "PRIVATE");
+// App context: SUPPORT or EVENT
+define('APP_CONTEXT', "SUPPORT");
+define('APP_WELCOME_MSG', "Welcome to 5 Mode hugs list:");
+define('APP_SUPPORT_MSG', "TIME FOR A SMALL DONATION!");
+
+define('DISPLAY_NAME_FONT', "Yuji Boku");
+define('DISPLAY_SUBMIT_BUTTON', "Submit");
+define('DISPLAY_BODY_CSS', "font-family: Monospace, Verdana, Serif;");
+
+define('CMDLINE_VALIDCMDS', "~|sign|del|conf|refresh|");
+
+define('HISTORY_MAX_ITEMS', 1000);
+
+$CONFIG = [
+
+   'DEBUG' => true,
+
+   'APP' => [
+      'NAME' => "Actitude",
+      'HASH' => "",  
+      'SPLASH' => true,
+      'PATH' => "/var/www/YourWebApp",
+      'DATA_PATH' => "/var/www/YourWebApp/data",
+      'SALT' => "yoursalt",
+      // Default Locale, in two letters format
+      'LOCALE' => "EN",
+      'CUSTOM_HEADER' => "&nbsp;&nbsp;<a href='http://5mode.com'><img src='/ACT_res/5mode.png' style='width:950px;'></a>",
+      'SUPPORT_BUTTON' => "<iframe src='https://github.com/sponsors/par7133/button' height='55' width='182' style='border:0;'></iframe>",
+      'SHOP_LINK' => "<a href='http://market.from.craft2.cyou/'>5 Mode Market</a>",
+      // App use: PRIVATE or BUSINESS
+      'USE' => "PRIVATE",
+      // App use: SUPPORT or EVENT
+      'CONTEXT' => "SUPPORT",
+      'WELCOME_MSG' => "Welcome to our 5 Mode hugs list:",
+      'SUPPORT_MSG' => "TIME FOR A SMALL DONATION!"
+      ],
+    
+    'DISPLAY' => [
+      'NAME_FONT' => "Yuji Boku",
+      'SUBMIT_BUTTON' => "Submit",
+      'BODY_CSS' => "font-family: Monospace, Verdana, Serif;"
+      ],
+     
+    'CMDLINE' => [
+       'VALIDCMDS' => "~|sign|del|conf|refresh|"  
+      ],    
+      
+    'HISTORY' => [
+     'MAX_ITEMS' => 1000
+      ]  
+    ];  
+
+$LOCALE = [
+
+   'IT' => [
+    'Monday' => 'Lunedi',
+    'You are in' => "Sei in",
+    ' as ' => " come ",
+    'owner' => "owner",
+    'guest' => "guest",
+    'Parent' => "Padre",
+    'Add' => "Aggiungi",
+    'folder' => "cartella",
+    ' Go ' => " Vai ",
+    'Hash me' => "Hashmi",
+    'Upload' => "Carica"
+    ]
+
+  ];
