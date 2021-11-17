@@ -1,7 +1,7 @@
 # Actitude
 Let everyone register or support you
   
-Hello and welcome to Actitude!<br><br>
+Hello and welcome to Actitude!
   	   
 Actitude is a light and simple software on premise to get registrations to events or support.   
   	     
