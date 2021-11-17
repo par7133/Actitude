@@ -50,6 +50,8 @@ define('APP_USE', "PRIVATE");
 define('APP_CONTEXT', "SUPPORT");
 define('APP_WELCOME_MSG', "Welcome to 5 Mode hugs list:");
 define('APP_SUPPORT_MSG', "TIME FOR A SMALL DONATION!");
+// Max signs from a single client
+define('APP_MAX_FROM_IP', 5);
 
 define('DISPLAY_NAME_FONT', "Yuji Boku");
 define('DISPLAY_SUBMIT_BUTTON', "Submit");
@@ -80,7 +82,9 @@ $CONFIG = [
       // App use: SUPPORT or EVENT
       'CONTEXT' => "SUPPORT",
       'WELCOME_MSG' => "Welcome to our 5 Mode hugs list:",
-      'SUPPORT_MSG' => "TIME FOR A SMALL DONATION!"
+      'SUPPORT_MSG' => "TIME FOR A SMALL DONATION!",
+      // Max signs from a single client
+      'APP_MAX_FROM_IP' =>  5
       ],
     
     'DISPLAY' => [

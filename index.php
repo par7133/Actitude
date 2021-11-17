@@ -241,7 +241,7 @@
   }  
   
   $rescaptcha1=$captchacount>=4;
-  $rescaptcha2=count(array_filter($captchaHistory, "odd")) > 2;
+  $rescaptcha2=count(array_filter($captchaHistory, "odd")) > (APP_MAX_FROM_IP - 1);
   if ($rescaptcha1) {
     echo("WARNING: captcha expired #1<br>");
   }  
@@ -440,7 +440,7 @@
  chdir($curPath);
 
  $signHistory = file($curPath . DIRECTORY_SEPARATOR . ".ACT_history");
- $captchaHistory = []; //file($curPath . DIRECTORY_SEPARATOR . ".ACT_captchahistory");
+ $captchaHistory = file($curPath . DIRECTORY_SEPARATOR . ".ACT_captchahistory");
 
  $password = filter_input(INPUT_POST, "Password");
  if ($password==PHP_STR) {
