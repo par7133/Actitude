@@ -121,28 +121,26 @@ function confSign(sign) {
 }
 
 function sendSign() {
+  var val = "";
+  val = $("#name").val().trim();
+  if (val=="" || val.length<3) {
+    $("#name").addClass("emptyfield");
+    return;
+  }  
+  val = $("#place").val().trim();
+  if (val=="" || val.length<3) {
+    $("#place").addClass("emptyfield");
+    return;
+  }  
   $("#CommandLine").val("sign");
   frmHC.submit();
 }
 
-$("#send").on("click",function(){
+$("#send").on("click",function() {
+  $("#name").removeClass("emptyfield");
+  $("#name").removeClass("emptyfield");
   sendSign();
 });
-
-function deletePic(pic) {
-  $("#CommandLine").val("delpic " + pic);
-  frmHC.submit();  
-}  
-
-function deleteMsg(msg) {
-  $("#CommandLine").val("delmsg " + msg);
-  frmHC.submit();  
-}  
-
-function openPic(pic) {
-  $("#CommandLine").val("openpic " + pic);
-  frmHC.submit();
-}
 
 
 function setContentPos() {
