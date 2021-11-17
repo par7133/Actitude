@@ -98,20 +98,3 @@ $CONFIG = [
       ]  
     ];  
 
-$LOCALE = [
-
-   'IT' => [
-    'Monday' => 'Lunedi',
-    'You are in' => "Sei in",
-    ' as ' => " come ",
-    'owner' => "owner",
-    'guest' => "guest",
-    'Parent' => "Padre",
-    'Add' => "Aggiungi",
-    'folder' => "cartella",
-    ' Go ' => " Vai ",
-    'Hash me' => "Hashmi",
-    'Upload' => "Carica"
-    ]
-
-  ];

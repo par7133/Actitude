@@ -229,14 +229,14 @@
   }
 
   //name!=""
-  if ($name===PHP_STR && strlen($name)>3) {
-    echo("WARNING: invalid name<br>");
+  if ($name===PHP_STR || strlen($name)<3) {
+    //echo("WARNING: invalid name<br>");
     return false;
   }  
 
   //place!=""
-  if ($place===PHP_STR && strlen($place)>3) {
-    echo("WARNING: invalid place<br>");
+  if ($place===PHP_STR || strlen($place)<3) {
+    //echo("WARNING: invalid place<br>");
     return false;
   }  
   
@@ -456,9 +456,6 @@
  $place = filter_input(INPUT_POST, "place");
 
  $captchasign = hash("sha256", $_SERVER["REMOTE_ADDR"] . date("Y") . APP_SALT, false);
- //if ($captchasign===PHP_STR) {
- //  $captchasign=mt_rand(1000000, 9999999);
- //}  
  
  $lastMessage = filter_input(INPUT_POST, "last_message");
  $totsigns = count($signHistory);
