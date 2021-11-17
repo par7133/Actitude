@@ -669,16 +669,20 @@
 
   <div style="width:100%; padding: 8px; text-align:center; font-size:26px; border:0px solid red;">
    
-    <br>
-   
     <div style="font-size:23px;margin-bottom:23px;font-weight:900;"><h1><?php echo(APP_WELCOME_MSG??"&nbsp;"); ?></h1></div>
     
-    <input type="text" id="name" name="name" placeholder="Name">&nbsp;<input type="text" id="place" name="place" placeholder="Place"><br>
-    <input type="button" id="send" name="send" value="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" title="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" style="position:relative;top:+8px;margin-top:25px;height:50px;background-color:red;border:1px solid black;color:white;">
-    
     <br>
     
+    <input type="text" id="name" name="name" placeholder="Name">&nbsp;<input type="text" id="place" name="place" placeholder="Place"><br>
+    
+    
+    <input type="button" id="send" name="send" value="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" title="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" style="position:relative;top:+18px;margin-top:25px;height:50px;background-color:red;border:1px solid black;color:white;">
+    
+    <br><br>
+    
     <hr style="color:black; margin-top:30px;">
+    
+    <br>
     
     <?php showHistory(); ?>
     
@@ -702,7 +706,7 @@
        
     <?php if(APP_USE === "BUSINESS"): ?>
     <div style="font-size:23px">
-      <a id="ahome" href="http://actitu.de" target="_blank" style="color:black;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="position:relative;top:-25px;width:48px;margin:5px;">Powered by Actitude</a>
+      <a id="ahome" href="http://actitu.de" target="_blank" style="color:black;"><img id="logo-act" src="/ACT_res/ACTlogo.png" style="position:relative;top:-25px;width:48px;margin:5px;">Powered by Actitude</a>
     </div>
     <?php endif; ?>&nbsp;
        
