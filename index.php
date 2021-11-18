@@ -667,13 +667,15 @@
 
   <div style="width:100%; padding: 8px; text-align:center; font-size:26px; border:0px solid red;">
    
+    <br>
+   
     <div style="font-size:23px;margin-bottom:23px;font-weight:900;"><h1><?php echo(APP_WELCOME_MSG??"&nbsp;"); ?></h1></div>
     
     <br>
     
     <input type="text" id="name" name="name" placeholder="Name">&nbsp;<input type="text" id="place" name="place" placeholder="Place"><br>
     
-    <input type="button" id="send" name="send" value="&nbsp;<?php echo(DISPLAY_SUBMIT_BUTTON);?>&nbsp;" title="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" style="position:relative;top:+18px;margin-top:25px;height:50px;background-color:red;border:1px solid black;color:white;font-size:medium;">
+    <input type="button" id="send" name="send" value="&nbsp;<?php echo(DISPLAY_SUBMIT_BUTTON);?>&nbsp;" title="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" style="position:relative;top:+28px;margin-top:25px;height:50px;background-color:red;border:1px solid black;color:white;font-size:medium;">
     
     <br><br>
     
