@@ -647,7 +647,7 @@
 	   As you are going to run Actitude in the PHP process context, using a limited web server or phpfpm user, you must follow some simple directives for an optimal first setup:<br>
 	   <ol>
 	   <li>Check the permissions of your "data" folder in your web app private path; and set its path in the config file.</li>
-	   <li>In the Repo path create a ".ACT_history" and ".ACT_captchahistory" files and give them the write permission.</li>
+	   <li>In the data path create a ".ACT_history" and ".ACT_captchahistory" files and give them the write permission.</li>
      <li>Finish to setup the configuration file apporpriately, in the specific:</li>
      <ul>
        <li>Configure the APP_USE and APP_CONTEXT appropriately.</li>
