@@ -672,7 +672,6 @@
     
     <input type="text" id="name" name="name" placeholder="Name">&nbsp;<input type="text" id="place" name="place" placeholder="Place"><br>
     
-    
     <input type="button" id="send" name="send" value="&nbsp;<?php echo(DISPLAY_SUBMIT_BUTTON);?>&nbsp;" title="<?php echo(DISPLAY_SUBMIT_BUTTON);?>" style="position:relative;top:+18px;margin-top:25px;height:50px;background-color:red;border:1px solid black;color:white;font-size:medium;">
     
     <br><br>
@@ -683,7 +682,7 @@
     
     <?php showHistory(); ?>
     
-    <br><br><br><br><br>
+    <br><br><br>
     
     <div style="font-size:23px;">
     <?php if ((APP_SUPPORT_BUTTON!="") || (APP_SUPPORT_BUTTON!="")):?>
