@@ -554,11 +554,12 @@
  -->
   
     
-  <title>Actitude: let everyone register or support you.</title>
+  <title><?php echo(APP_TITLE); ?></title>
 	
   <link rel="shortcut icon" href="/favicon.ico?v=<?php echo(time()); ?>>" />
     
-  <meta name="description" content="Welcome to Actitude"/>
+  <meta name="description" content="<?php echo(APP_DESCRIPTION); ?>"/>
+  <meta name="keywords" content="<?php echo(APP_KEYWORDS); ?>"/>
   <meta name="author" content="5 Mode"/> 
   <meta name="robots" content="index,follow"/>
   

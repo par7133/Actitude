@@ -30,6 +30,10 @@ define('DEBUG', true);
  
 define('APP_NAME', "Actitude");
 
+define('APP_TITLE', "Actitude");
+define('APP_DESCRIPTION', "Welcome to Actitude! Let everyone register and support you.");
+define('APP_KEYWORDS', "event,registration,support,supportes,hugs,list,on,premise,solution");
+
 // password: yourpassword
 // salt: yoursalt
 define('APP_HASH', "");
@@ -67,6 +71,9 @@ $CONFIG = [
 
    'APP' => [
       'NAME' => "Actitude",
+      'TITLE' => "Actitude",
+      'APP_DESCRIPTION' => "Welcome to Actitude! Let everyone register and support you.",
+      'APP_KEYWORDS' => "event,registration,support,supportes,hugs,list,on,premise,solution",
       'HASH' => "",  
       'SPLASH' => true,
       'PATH' => "/var/www/YourWebApp",
