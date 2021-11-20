@@ -693,7 +693,7 @@
     <?php endif;?>
 
     <?php if (APP_SUPPORT_LINK!=""):?> 
-    <?php echo (APP_SUPPORT_LINK);?><br><br>
+    <?php echo (APP_SUPPORT_LINK);?><br>
     <?php endif;?>
     
     <?php if (APP_GITHUB_BUTTON!=""):?> 

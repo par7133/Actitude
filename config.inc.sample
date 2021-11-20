@@ -46,8 +46,8 @@ define('APP_SALT', "yoursalt");
 // Default Locale, in two letters format
 define('APP_LOCALE', "EN");
 define('APP_CUSTOM_HEADER', "&nbsp;&nbsp;<a href='http://5mode.com'><img src='/ACT_res/5mode.png' style='width:950px;'></a>");
-define('APP_SUPPORT_LINK', "<a href='https://buy.stripe.com/bIY2be4dE5Fifvy000'>Personal donation</a>");
-define('APP_GITHUB_BUTTON', "<iframe src='https://github.com/sponsors/par7133/button' height='55' width='182' style='border:0;'></iframe>");
+define('APP_SUPPORT_LINK', "<a href='http://5md.link/l/dona1'>Personal donation</a>");
+define('APP_GITHUB_BUTTON', "<a href='http://5md.link/l/dona2'>Developer donation</a>");
 define('APP_SHOP_LINK', "<a href='http://market.from.craft2.cyou/'>5 Mode Market</a>");
 // App uses: PRIVATE or BUSINESS
 define('APP_USE', "PRIVATE");
@@ -83,8 +83,8 @@ $CONFIG = [
       // Default Locale, in two letters format
       'LOCALE' => "EN",
       'CUSTOM_HEADER' => "&nbsp;&nbsp;<a href='http://5mode.com'><img src='/ACT_res/5mode.png' style='width:950px;'></a>",
-      'SUPPORT_LINK' => "<a href='https://buy.stripe.com/bIY2be4dE5Fifvy000'>Personal donation</a>",
-      'GITHUB_BUTTON' => "<iframe src='https://github.com/sponsors/par7133/button' height='55' width='182' style='border:0;'></iframe>",
+      'SUPPORT_LINK' => "<a href='http://5md.link/l/dona1'>Personal donation</a>",
+      'GITHUB_BUTTON' => "<a href='http://5md.link/l/dona2'>Developer donation</a>",
       'SHOP_LINK' => "<a href='http://market.from.craft2.cyou/'>5 Mode Market</a>",
       // App use: PRIVATE or BUSINESS
       'USE' => "PRIVATE",
