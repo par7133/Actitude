@@ -8,7 +8,7 @@ Actitude is a light and simple software on premise to get registrations to event
   	     
 Actitude is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.   
   	     
-Actitude name comes from a prank between two words: "active" meaning our positive way to do stuff and and "attitude".   
+Actitude name comes from a prank between two words: "active" meaning our positive way to do stuff and "attitude".   
           
 First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.  
    
