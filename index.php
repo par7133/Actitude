@@ -732,5 +732,9 @@
 </div>
 -->
 
+<?php if (file_exists(APP_PATH . DIRECTORY_SEPARATOR . "metrics.html")): ?>
+<?php include("metrics.html"); ?> 
+<?php endif; ?>
+
 </body>
 </html>
