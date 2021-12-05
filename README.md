@@ -28,4 +28,4 @@ Hope you can enjoy it and let us know about any feedback: <a href="mailto:info@a
    
 ## Screenshots  
 	   
- ![Secchione](/ACT_res/screenshot1.png)  
+ ![Actitude](/ACT_res/screenshot1.png)  
