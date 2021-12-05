@@ -53,10 +53,10 @@
      
      $val = rtrim($val, "\n");
      
-     $ipos=mb_stripos($val, "-");
+     $ipos=mb_stripos($val, "|");
      $myname = left($val,$ipos);
      
-     $ipos2=mb_strripos($val, "-");
+     $ipos2=mb_strripos($val, "|");
      $myplace = substr($val, $ipos+1, (($ipos2 - $ipos) - 1));
      
      $aflag = substr($val, $ipos2+1, 1);
@@ -276,7 +276,7 @@
    global $captchasign;
    global $captchaHistory;
    
-   $newSign = HTMLencodeF($name,false) . "-" . HTMLencodeF($place,false) . "-u";
+   $newSign = HTMLencodeF($name,false) . "|" . HTMLencodeF($place,false) . "|u";
 
    //echo("array_filter=".count(array_filter($captchaHistory, "odd"))."<br>");
    //echo("new_sign?=".((hash("sha256", $newSign . APP_SALT, false) !== $lastMessage)?"true":"false")."<br>");
@@ -354,7 +354,7 @@
      
      //echo("inside myExecConfSignCommand()");
      
-     $newval = left($mysign, strlen($mysign)-2) . "-v"; 
+     $newval = left($mysign, strlen($mysign)-2) . "|v"; 
      
      $key = array_search($mysign."\n", $signHistory);
      if ($key !== false) { 
@@ -422,7 +422,7 @@
      
      //echo("inside myExecDelSignCommand()");
      
-     $newval = left($mysign, strlen($mysign)-2) . "-u"; 
+     $newval = left($mysign, strlen($mysign)-2) . "|u"; 
      
      $key = array_search($mysign."\n", $signHistory);
      if ($key !== false) { 

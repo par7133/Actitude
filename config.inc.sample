@@ -73,8 +73,8 @@ $CONFIG = [
    'APP' => [
       'NAME' => "Actitude",
       'TITLE' => "Actitude",
-      'APP_DESCRIPTION' => "Welcome to Actitude! Let everyone register and support you.",
-      'APP_KEYWORDS' => "event,registration,support,supportes,hugs,list,on,premise,solution",
+      'DESCRIPTION' => "Welcome to Actitude! Let everyone register and support you.",
+      'KEYWORDS' => "event,registration,support,supportes,hugs,list,on,premise,solution",
       'HASH' => "",  
       'SPLASH' => true,
       'PATH' => "/var/www/YourWebApp",
@@ -93,7 +93,7 @@ $CONFIG = [
       'WELCOME_MSG' => "Welcome to our 5 Mode hugs list:",
       'SUPPORT_MSG' => "TIME FOR A SMALL DONATION!",
       // Max signs from a single client
-      'APP_MAX_FROM_IP' =>  5
+      'MAX_FROM_IP' =>  5
       ],
     
     'DISPLAY' => [
