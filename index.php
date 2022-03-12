@@ -688,7 +688,7 @@
     <br><br><br>
     
     <div style="font-size:23px;">
-    <?php if ((APP_SUPPORT_LINK!="") || (APP_GITHUB_BUTTON!="") || (APP_SUPPORT_BUTTON!="")):?>
+    <?php if ((APP_SUPPORT_LINK!="") || (APP_GITHUB_BUTTON!="") || (APP_SHOP_LINK!="")):?>
     <?php echo(APP_SUPPORT_MSG);?><br><br>
     <?php endif;?>
 
