@@ -563,7 +563,7 @@
   <meta name="author" content="5 Mode"/> 
   <meta name="robots" content="index,follow"/>
   
-  <script src="/ACT_js/jquery-3.1.0.min.js" type="text/javascript"></script>
+  <script src="/ACT_js/jquery-3.6.0.min.js" type="text/javascript"></script>
   <script src="/ACT_js/common.js" type="text/javascript"></script>
   <script src="/ACT_js/bootstrap.min.js" type="text/javascript"></script>
   
