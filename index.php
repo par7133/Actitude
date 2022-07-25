@@ -3,24 +3,24 @@
 /**
  * Copyright 2021, 2024 5 Mode
  *
- * This file is part of Actitude.
+ * This file is part of Homohug.
  *
- * Actitude is free software: you can redistribute it and/or modify
+ * Homohug is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * Actitude is distributed in the hope that it will be useful,
+ * Homohug is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.  
  * 
  * You should have received a copy of the GNU General Public License
- * along with Actitude. If not, see <https://www.gnu.org/licenses/>.
+ * along with Homohug. If not, see <https://www.gnu.org/licenses/>.
  *
  * index.php
  * 
- * Actitude home page.
+ * Homohug home page.
  *
  * @author Daniele Bonini <my25mb@aol.com>
  * @copyrights (c) 2021, 2024, 5 Mode      
@@ -537,20 +537,20 @@
 <!--
     Copyright 2021, 2024 5 Mode
 
-    This file is part of Actitude.
+    This file is part of Homohug.
 
-    Actitude is free software: you can redistribute it and/or modify
+    Homohug is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Actitude is distributed in the hope that it will be useful,
+    Homohug is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Actitude. If not, see <https://www.gnu.org/licenses/>.
+    along with Homohug. If not, see <https://www.gnu.org/licenses/>.
  -->
   
     
@@ -583,7 +583,7 @@
 
 <?php if(APP_USE === "PRIVATE"): ?>
 <div class="header" style="background-color:#ffffff;z-index:90;">
-   <a id="burger-menu" href="#" style="display:none;"><img src="/ACT_res/burger-menu2.png" style="width:58px;"></a><a id="ahome" href="http://actitu.de" target="_blank" style="color:black; text-decoration: none;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="width:48px;">&nbsp;Actitude</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="agithub" href="https://github.com/par7133/Actitude" style="color:#000000"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="afeedback" href="mailto:info@actitu.de" style="color:#000000"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="asupport" href="tel:+39-331-4029415" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:black;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a><div id="pwd2" style="float:right;position:relative;top:+13px;display:none"><input type="password" id="Password2" name="Password2" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 125px; border-radius:3px;" value="" autocomplete="off"></div>
+   <a id="burger-menu" href="#" style="display:none;"><img src="/ACT_res/burger-menu2.png" style="width:58px;"></a><a id="ahome" href="http://homohug.org" target="_blank" style="color:black; text-decoration: none;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="width:48px;">&nbsp;Homohug</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="agithub" href="https://github.com/par7133/Homohug" style="color:#000000"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="afeedback" href="mailto:info@homohug.org" style="color:#000000"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="asupport" href="tel:+39-331-4029415" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:black;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a><div id="pwd2" style="float:right;position:relative;top:+13px;display:none"><input type="password" id="Password2" name="Password2" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 125px; border-radius:3px;" value="" autocomplete="off"></div>
 </div>
 <?php else: ?>
 <div class="header2" style="margin:0;padding:0;border-bottom:0px;text-align:center;">
@@ -635,17 +635,17 @@
         <span aria-hidden="true">&times;</span>
      </button>
 	
-	   Hello and welcome to Actitude!<br><br>
+	   Hello and welcome to Homohug!<br><br>
 	   
-	   Actitude is a light and simple software on premise to get registrations to events or support.<br><br>
+	   Homohug is a light and simple software on premise to get registrations to events or support.<br><br>
 	   
-	   Actitude is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br><br>
+	   Homohug is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br><br>
 	   
-     Actitude name comes from a prank between two words: "active" meaning our positive way to do stuff and "attitude".<br><br>
+           Homohug name comes from a prank between two words: "homo" meaning our positive way to do stuff, fot the homines, and "hug".<br><br>
      
 	   First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.<br><br>
 	   
-	   As you are going to run Actitude in the PHP process context, using a limited web server or phpfpm user, you must follow some simple directives for an optimal first setup:<br>
+	   As you are going to run Homohug in the PHP process context, using a limited web server or phpfpm user, you must follow some simple directives for an optimal first setup:<br>
 	   <ol>
 	   <li>Check the permissions of your "data" folder in your web app private path; and set its path in the config file.</li>
 	   <li>In the data path create a ".ACT_history" and ".ACT_captchahistory" files and give them the write permission.</li>
@@ -659,7 +659,7 @@
 	   
 	   <br>	
      
-	   Hope you can enjoy it and let us know about any feedback: <a href="mailto:info@actitu.de" style="color:#e6d236;">info@actitu.de</a>
+	   Hope you can enjoy it and let us know about any feedback: <a href="mailto:info@homohug.org" style="color:#e6d236;">info@homohug.org</a>
 	   
 	</div>	
 	<?php endif; ?>
