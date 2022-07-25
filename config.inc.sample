@@ -3,24 +3,24 @@
 /**
  * Copyright 2021, 2024 5 Mode
  *
- * This file is part of Actitude.
+ * This file is part of Homohug.
  *
- * Actitude is free software: you can redistribute it and/or modify
+ * Homohug is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * Actitude is distributed in the hope that it will be useful,
+ * Homohug is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.  
  * 
  * You should have received a copy of the GNU General Public License
- * along with Actitude. If not, see <https://www.gnu.org/licenses/>.
+ * along with Homohug. If not, see <https://www.gnu.org/licenses/>.
  *
  * config.inc
  * 
- * Actitude configuration settings.
+ * Homohug configuration settings.
  *
  * @author Daniele Bonini <my25mb@aol.com>
  * @copyrights (c) 2021, 2024, 5 Mode     
@@ -28,10 +28,10 @@
 
 define('DEBUG', true);
  
-define('APP_NAME', "Actitude");
+define('APP_NAME', "Homohug");
 
-define('APP_TITLE', "Actitude");
-define('APP_DESCRIPTION', "Welcome to Actitude! Let everyone register and support you.");
+define('APP_TITLE', "Homohug");
+define('APP_DESCRIPTION', "Welcome to Homohug! Let everyone register and support you.");
 define('APP_KEYWORDS', "event,registration,support,supportes,hugs,list,on,premise,solution");
 
 // password: yourpassword
@@ -71,9 +71,9 @@ $CONFIG = [
    'DEBUG' => true,
 
    'APP' => [
-      'NAME' => "Actitude",
-      'TITLE' => "Actitude",
-      'DESCRIPTION' => "Welcome to Actitude! Let everyone register and support you.",
+      'NAME' => "Homolog",
+      'TITLE' => "Homolog",
+      'DESCRIPTION' => "Welcome to Homolog! Let everyone register and support you.",
       'KEYWORDS' => "event,registration,support,supportes,hugs,list,on,premise,solution",
       'HASH' => "",  
       'SPLASH' => true,
