@@ -8,7 +8,7 @@ Homohug is a light and simple software on premise to get registrations to events
   	     
 Homohug is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.   
   	     
-Homohug name comes from a prank between two words: "active" meaning our positive way to do stuff and "attitude".   
+Homohug name comes from a prank between two words: "homo" meaning our positive way to do stuff, for the homines, and "hug".   
           
 First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.  
    
