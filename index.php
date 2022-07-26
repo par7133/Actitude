@@ -709,7 +709,7 @@
        
     <?php if(APP_USE === "BUSINESS"): ?>
     <div style="font-size:23px">
-      <a id="ahome" href="http://actitu.de" target="_blank" style="color:black;"><img id="logo-act" src="/ACT_res/ACTlogo.png" style="position:relative;top:-25px;width:48px;margin:5px;">Powered by Actitude</a>
+      <a id="ahome" href="http://homohug.org" target="_blank" style="color:black;"><img id="logo-act" src="/ACT_res/ACTlogo.png" style="position:relative;top:-25px;width:48px;margin:5px;">Powered by Homohug</a>
     </div>
     <?php endif; ?>&nbsp;
        
