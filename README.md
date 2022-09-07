@@ -1,6 +1,5 @@
 # Actitude
-Let everyone register or support you   
-<br>    
+   
      
 Hello and welcome to Actitude!
   	   
