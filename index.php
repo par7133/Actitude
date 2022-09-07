@@ -583,7 +583,7 @@
 
 <?php if(APP_USE === "PRIVATE"): ?>
 <div class="header" style="background-color:#ffffff;z-index:90;">
-   <a id="burger-menu" href="#" style="display:none;"><img src="/ACT_res/burger-menu2.png" style="width:58px;"></a><a id="ahome" href="http://actitu.de" target="_blank" style="color:black; text-decoration: none;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="width:48px;">&nbsp;Actitude</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="agithub" href="https://github.com/par7133/Actitude" style="color:#000000"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="afeedback" href="mailto:info@actitu.de" style="color:#000000"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="asupport" href="tel:+39-331-4029415" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:black;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a><div id="pwd2" style="float:right;position:relative;top:+13px;display:none"><input type="password" id="Password2" name="Password2" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 125px; border-radius:3px;" value="" autocomplete="off"></div>
+   <a id="burger-menu" href="#" style="display:none;"><img src="/ACT_res/burger-menu2.png" style="width:58px;"></a><a id="ahome" href="http://actitude.5mode.com" target="_blank" style="color:black; text-decoration: none;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="width:48px;">&nbsp;Actitude</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="agithub" href="https://github.com/par7133/Actitude" style="color:#000000"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="afeedback" href="mailto:my25mb@aol.com" style="color:#000000"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="asupport" href="tel:+39-331-4029415" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:black;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a><div id="pwd2" style="float:right;position:relative;top:+13px;display:none"><input type="password" id="Password2" name="Password2" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 125px; border-radius:3px;" value="" autocomplete="off"></div>
 </div>
 <?php else: ?>
 <div class="header2" style="margin:0;padding:0;border-bottom:0px;text-align:center;">
@@ -614,8 +614,8 @@
     <img src="/ACT_res/ACTgenius.png" alt="ACT Genius" title="ACT Genius" style="position:relative; left:+6px; width:90%; border: 1px dashed #EEEEEE;">
     &nbsp;<br><br>
     <div style="text-align:left;white-space:nowrap;">
-    &nbsp;&nbsp;<input type="password" id="Password" name="Password" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 60%; border-radius:3px;" value="<?php echo($password);?>" autocomplete="off">&nbsp;<input type="submit" value="<?php echo(getResource("Go", $curLocale));?>" style="text-align:left;width:25%;"><br>
-    &nbsp;&nbsp;<input type="text" id="Salt" placeholder="salt" style="position:relative; top:+5px; font-size:13px; background:#393939; color:#ffffff; width: 90%; border-radius:3px;" autocomplete="off"><br>
+    &nbsp;&nbsp;<input type="password" id="Password" name="Password" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 60%; height:30px; border-radius:3px;" value="<?php echo($password);?>" autocomplete="off">&nbsp;<input type="submit" value="<?php echo(getResource("Go", $curLocale));?>" style="text-align:left;width:25%;"><br>
+    &nbsp;&nbsp;<input type="text" id="Salt" placeholder="salt" style="position:relative; top:+5px; font-size:13px; background:#393939; color:#ffffff; width: 90%; height:30px; border-radius:3px;" autocomplete="off"><br>
     <div style="text-align:center;">
     <a href="#" onclick="showEncodedPassword();" style="position:relative; left:-2px; top:+5px; color:#000000; font-size:12px;"><?php echo(getResource("Hash Me", $curLocale));?>!</a>     
     
@@ -629,7 +629,7 @@
 
 	<?php if (APP_SPLASH): ?>
 	<?php if ($hideSplash !== PHP_STR): ?>
-	<div id="splash" style="color:black; border-radius:20px; position:relative; left:+3px; width:98%; background-color: #33aced; padding: 20px; margin-bottom:8px;">	
+	<div id="splash" style="color:black; border-radius:20px; position:relative; left:+3px; width:98%; background-color: #f0f8fb; padding: 20px; margin-bottom:8px;">	
 	
 	   <button type="button" class="close" aria-label="Close" onclick="closeSplash();" style="position:relative; left:-10px;">
         <span aria-hidden="true">&times;</span>
@@ -659,7 +659,7 @@
 	   
 	   <br>	
      
-	   Hope you can enjoy it and let us know about any feedback: <a href="mailto:info@actitu.de" style="color:#e6d236;">info@actitu.de</a>
+	   Hope you can enjoy it and let us know about any feedback: <a href="mailto:my25mb@aol.com">my25mb@aol.com</a>
 	   
 	</div>	
 	<?php endif; ?>
