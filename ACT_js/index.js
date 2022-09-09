@@ -155,7 +155,7 @@ function setContentPos() {
     //$("#contentbar").css("width","100%");
     $("#logo-hmm").css("display","none");
   } else {  
-    $("#ahome").attr("href","http://actitu.de");
+    $("#ahome").attr("href","http://actitude.5mode.com");
     $("#agithub").css("display","inline");
     $("#afeedback").css("display","inline");
     $("#asupport").css("display","inline");  
