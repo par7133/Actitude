@@ -442,22 +442,30 @@
  $signHistory = file($curPath . DIRECTORY_SEPARATOR . ".ACT_history");
  $captchaHistory = file($curPath . DIRECTORY_SEPARATOR . ".ACT_captchahistory");
 
- $password = filter_input(INPUT_POST, "Password");
+ $password = filter_input(INPUT_POST, "Password")??"";
+ $password = strip_tags($password);
  if ($password==PHP_STR) {
-   $password = filter_input(INPUT_POST, "Password2");
+   $password = filter_input(INPUT_POST, "Password2")??"";
+   $password = strip_tags($password);
  }  
- $command = filter_input(INPUT_POST, "CommandLine");
+ $command = filter_input(INPUT_POST, "CommandLine")??"";
+ $command = strip_tags($command);
  
- //$pwd = filter_input(INPUT_POST, "pwd"); 
- $hideSplash = filter_input(INPUT_POST, "hideSplash");
- $hideHCSplash = filter_input(INPUT_POST, "hideHCSplash");
-
- $name = filter_input(INPUT_POST, "name");
- $place = filter_input(INPUT_POST, "place");
+ //$pwd = filter_input(INPUT_POST, "pwd")??""; 
+ $hideSplash = filter_input(INPUT_POST, "hideSplash")??"";
+ $hideSplash = strip_tags($hideSplash);
+ $hideHCSplash = filter_input(INPUT_POST, "hideHCSplash")??"";
+ $hideHCSplash = strip_tags($hideHCSplash);
+ 
+ $name = filter_input(INPUT_POST, "name")??"";
+ $name = strip_tags($name);
+ $place = filter_input(INPUT_POST, "place")??"";
+ $place = strip_tags($place);
 
  $captchasign = hash("sha256", $_SERVER["REMOTE_ADDR"] . date("Y") . APP_SALT, false);
  
- $lastMessage = filter_input(INPUT_POST, "last_message");
+ $lastMessage = filter_input(INPUT_POST, "last_message")??"";
+ $lastMessage = strip_tags($lastMessage);
  $totsigns = count($signHistory);
  //print_r($totsigns);
  //exit(0);
@@ -465,7 +473,8 @@
    $lastMessage = hash("sha256", rtrim($signHistory[$totsigns-1],"\n") . APP_SALT, false);
  }   
 
- $captchacount = (int)filter_input(INPUT_POST, "captcha_count");
+ $captchacount = (int)filter_input(INPUT_POST, "captcha_count")??"";
+ $captchacount = strip_tags($captchacount);
  //if ($captchacount === 0) {
  //  $captchacount = 1;
  //}  
