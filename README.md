@@ -23,7 +23,7 @@ As you are going to run Actitude in the PHP process context, using a limited web
 </ul>  
 </ol>   
     
-Hope you can enjoy it and let us know about any feedback: <a href="mailto:my25mb@aol.com" style="color:#e6d236;">my25mb@aol.com</a>  
+Hope you can enjoy it and let us know about any feedback: <a href="mailto:posta@elettronica.lol" style="color:#e6d236;">posta@elettronica.lol</a>  
    
 ## Screenshots  
 	   
