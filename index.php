@@ -588,6 +588,10 @@
 </head>
 <body style="<?php echo(DISPLAY_BODY_CSS);?>">
 
+<?php if (file_exists(APP_PATH . DIRECTORY_SEPARATOR . "jscheck.html")): ?>
+<?php include(APP_PATH . DIRECTORY_SEPARATOR . "jscheck.html"); ?> 
+<?php endif; ?>
+
 <form id="frmHC" method="POST" action="/" target="_self" enctype="multipart/form-data">
 
 <?php if(APP_USE === "PRIVATE"): ?>
