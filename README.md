@@ -27,4 +27,4 @@ As you are going to run Actitude in the PHP process context, using a limited web
 	   
  ![Actitude](/ACT_res/screenshot1.png)  
   
-Feedback: <a href="mailto:posta@elettronica.lol" style="color:#e6d236;">posta@elettronica.lol</a>
+Feedback: <a href="mailto:code@gaox.io" style="color:#e6d236;">code@gaox.io</a>
