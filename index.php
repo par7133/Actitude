@@ -544,7 +544,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   
 <!--
-    Copyright 2021, 2024 5 Mode
+    Copyright 2021, 2024 NuMode
 
     This file is part of Actitude.
 
@@ -569,7 +569,7 @@
     
   <meta name="description" content="<?php echo(APP_DESCRIPTION); ?>"/>
   <meta name="keywords" content="<?php echo(APP_KEYWORDS); ?>"/>
-  <meta name="author" content="5 Mode"/> 
+  <meta name="author" content="NuMode"/> 
   <meta name="robots" content="index,follow"/>
   
   <script src="/ACT_js/jquery-3.6.0.min.js" type="text/javascript"></script>
@@ -596,7 +596,7 @@
 
 <?php if(APP_USE === "PRIVATE"): ?>
 <div class="header" style="background-color:#ffffff;z-index:90;">
-   <a id="burger-menu" href="#" style="display:none;"><img src="/ACT_res/burger-menu2.png" style="width:58px;"></a><a id="ahome" href="http://actitude.5mode-foss.eu" target="_blank" style="color:black; text-decoration: none;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="width:48px;">&nbsp;Actitude</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="agithub" href="https://github.com/par7133/Actitude" style="color:#000000"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="afeedback" href="mailto:code@gaox.io" style="color:#000000"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="asupport" href="tel:+39-378-0812391" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:black;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a><div id="pwd2" style="float:right;position:relative;top:+13px;display:none"><input type="password" id="Password2" name="Password2" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 125px; border-radius:3px;" value="" autocomplete="off"></div>
+   <a id="burger-menu" href="#" style="display:none;"><img src="/ACT_res/burger-menu2.png" style="width:58px;"></a><a id="ahome" href="http://actitude.numode-foss.eu" target="_blank" style="color:black; text-decoration: none;"><img id="logo-hmm" src="/ACT_res/ACTlogo.png" style="width:48px;">&nbsp;Actitude</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="agithub" href="https://github.com/par7133/Actitude" style="color:#000000"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="afeedback" href="mailto:code@gaox.io" style="color:#000000"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="asupport" href="tel:+39-378-0812391" style="font-size:13px;background-color:#15c60b;border:2px solid #15c60b;color:black;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a><div id="pwd2" style="float:right;position:relative;top:+13px;display:none"><input type="password" id="Password2" name="Password2" placeholder="password" style="font-size:13px; background:#393939; color:#ffffff; width: 125px; border-radius:3px;" value="" autocomplete="off"></div>
 </div>
 <?php else: ?>
 <div class="header2" style="margin:0;padding:0;border-bottom:0px;text-align:center;">
@@ -722,7 +722,7 @@
        
     <?php if(APP_USE === "BUSINESS"): ?>
     <div style="font-size:23px">
-      <a id="ahome" href="http://actitude.5mode-foss.eu" target="_blank" style="color:black;"><img id="logo-act" src="/ACT_res/ACTlogo.png" style="position:relative;top:-25px;width:48px;margin:5px;">Powered by Actitude</a>
+      <a id="ahome" href="http://actitude.numode-foss.eu" target="_blank" style="color:black;"><img id="logo-act" src="/ACT_res/ACTlogo.png" style="position:relative;top:-25px;width:48px;margin:5px;">Powered by Actitude</a>
     </div>
     <?php endif; ?>&nbsp;
        
